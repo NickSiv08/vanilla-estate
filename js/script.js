@@ -195,9 +195,6 @@ function init() {
     case '/details.html':
       displayDetails()
       break
-    case '/search.html':
-      console.log('Search')
-      break
   }
 
   form.addEventListener('submit', () => {
