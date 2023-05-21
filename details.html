@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./js/script.js"></script>
-    <script src="cdn.tailwindcss.com"></script>
-    <title>Vanilla-Estate || Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <title>Vanilla-Estate || Home</title>
   </head>
-  <body></body>
+  <body class="bg-black text-white" id="details">
+    <div class="text-center p-8 bg-[#1F2937]">
+      <h1 class="text-5xl font-bold">Vanilla-Estate</h1>
+    </div>
+    <a
+      href="/"
+      type="button"
+      class="mt-8 ml-12 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+    >
+      Go Back
+    </a>
+    <div id="container"></div>
+    <div id="map"></div>
+    <div class="bg-[#1F2937] p-12 flex flex-col items-center gap-6">
+      <p class="text-lg font-semibold">Vanilla-Estate</p>
+      <p class="text-md">&copy; Copyright 2023</p>
+    </div>
+  </body>
 </html>

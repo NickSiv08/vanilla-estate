@@ -1,5 +1,5 @@
 #hero {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
     url('../images/background.avif') no-repeat center center/cover;
 }
 
@@ -7,4 +7,15 @@
   background: linear-gradient(to right, #1f2937, lightblue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#details {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url('../images/background.avif') no-repeat center center/cover;
+}
+
+#map {
+  height: 500px;
+  width: 70%;
+  margin: 100px auto;
 }
