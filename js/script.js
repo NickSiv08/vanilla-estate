@@ -48,12 +48,14 @@ async function displayProperties() {
 
     div.innerHTML = `
         <a href="/details.html?id=${property.externalID}">
-            <img class="rounded-t-lg" src="${property.coverPhoto.url}" alt="" />
+            <img class="rounded-t-lg h-[30%] md:h-[40%] xl:h-1/2 w-full" src="${
+              property.coverPhoto.url
+            }" alt="" />
         </a>
         <div class="p-5">
             <a href="#">
             <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
             >
                 ${property.title}
             </h5>
@@ -89,6 +91,7 @@ async function displayProperties() {
             </a>
         </div>
   `
+
     document.getElementById('properties').appendChild(div)
   })
 }
